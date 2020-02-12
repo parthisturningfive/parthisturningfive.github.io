@@ -1,7 +1,110 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Parth is turning five :) </title>
+    <link href="slick/slick.css" type="text/css" rel="stylesheet" />
+    <link href="slick/slick-theme.css" type="text/css" rel="stylesheet" />
+    <link href="Custom.css" type="text/css"  rel="stylesheet" />
+</head>
+<body onload="init();">
+
+     <div class="subdiv" style="text-align:center">
+        <canvas id="MyCanvas1" >
+  <h1 style="color:red; text-align:center; font-family:'Comic Sans MS' ">Parth is turning five :) </h1>
+
+        </canvas>
+       
+    </div>
+
+
+    <div>
+    
+    <div class="mc">
+        <img src="Images/1.jpg" />
+        <img src="Images/2.jpg" />
+        <img src="Images/4.jpg" />
+        <img src="Images/5.jpg" />
+        <img src="Images/6.jpg" />      
+        <img src="Images/7.jpg" />
+
+  </div>
+
+
+        </div>
+
+    <div class="invite">
+       
+     <div style="color: brown"> <h1>We are celebrating Parth's 5th Birthday on 26th April 2020 :-)</h1>  </div><br />
+      <div style="color:darkolivegreen"> We'd be really glad if you could join us in celebrating this day. </div> <br />
+     <div style="color:purple">The Party details are as below:</div> 
+       <div style="color:maroon"><h1><b>Masti</b></h1></div> 
+        <div style="color:darkolivegreen"> <b>576-582 High Road, Wembley. London. HA0 2AA</b><br/></div>
+<div style="color:darkolivegreen"><b>Time: </b> 12pm-5pm</div>
+         <div id="menuleftcontent">
+        <ul>
+
+            <li><a href="Contact Us.html">Contact Us</a></li><br />
+            <li><a href="mailto:puneetminhas@gmail.com"> RSVP Please</a></li>
+        </ul>
+        
+    </div>
+    <div >
+ <img src="Images/5.png" id="cake3" />
+</div>
+    </div>
+
+
+    <script type="text/javascript" src="Custom.js"></script>
+    <script  type="text/javascript" src="jquery-1.12.1.min.js"></script>
+    <script  type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+ <script type="text/javascript">
+     $(document).ready(function(){
+         $('.mc').slick({
+             
+             dots: true,
+             infinite: true,
+            arrows: true,
+             slidesToShow: 3,
+             slidesToScroll: 1,
+             autoplay: true,
+             autoplaySpeed: 2000,
+
+             responsive: [
+               {
+                   breakpoint: 1024,
+                   settings: {
+                       slidesToShow: 3,
+                       slidesToScroll: 3,
+                       infinite: true,
+                       dots: true
+                   }
+               },
+               {
+                   breakpoint: 600,
+                   settings: {
+                       slidesToShow: 2,
+                       slidesToScroll: 2
+                   }
+               },
+               {
+                   breakpoint: 480,
+                   settings: {
+                       slidesToShow: 1,
+                       slidesToScroll: 1
+                   }
+               }
+               // You can unslick at a given breakpoint now by adding:
+               // settings: "unslick"
+               // instead of a settings object
+             ]
+
+
+         });
+     });
+  </script>
+
 </body>
 </html>
