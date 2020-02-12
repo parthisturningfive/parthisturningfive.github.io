@@ -65,7 +65,7 @@ height: 50px;
 body {
     font-family: 'Comic Sans MS';
     
-    background-image:url("Images\5..png");
+    background-image:url("Images\5..jpg");
    background-color:whitesmoke;
 }
 
@@ -85,9 +85,9 @@ body {
     border: outset;
     border-width:10px;
     text-align:center;
-   background-color:black;
+   background-color:whitesmoke;
     box-shadow:0 0 10px rgba(0,0,0,.15);
     color:blue;
-    border-color:grey;
+    border-color: whitesmoke;
 
 }
