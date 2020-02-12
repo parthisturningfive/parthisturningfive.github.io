@@ -1,0 +1,93 @@
+﻿nav.vertical {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  
+  color:blue;
+  
+  
+}
+#cake
+{
+width:50px;
+height: 50px;
+}
+#cake2
+{
+width:50px;
+height: 50px;
+text-align:right;
+
+}
+#cake3
+{
+width:50px;
+height: 50px;
+
+}
+#MyCanvas1 {
+
+    font-weight:bold;
+    font-size:15px;
+    color:red;
+    font-family:'Comic Sans MS'
+   
+}
+.mc {
+  margin-left:20px;
+  margin-right:20px;
+    border:outset;
+   
+}
+
+     canvas{width:300px;font-family:'Comic Sans MS';font-size:15px;}
+
+        .text{margin: auto; width: 500px;font-family:'Comic Sans MS';}
+
+#menuleftcontent{
+  
+    
+  /*margin-left: -200px;*/  
+   
+    margin-right: 10px;
+    border:none;
+     display: block;
+     text-align:left;
+}
+
+  nav.vertical > ul {
+    list-style-type: none;
+  }
+
+    nav.vertical > ul > li {
+      display: block;
+    }
+
+body {
+    font-family: 'Comic Sans MS';
+    
+    background-image:url("Images\5..png");
+   background-color:rgb(153,217,234);
+}
+
+.contact {
+     border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  overflow: hidden;
+}
+
+.invite {
+    margin-top:30px;
+     margin-left:20px;
+  margin-right:20px;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Comic Sans MS';
+    border: outset;
+    border-width:10px;
+    text-align:center;
+   background-color:bisque;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+    color:blue;
+    border-color:grey;
+
+}
