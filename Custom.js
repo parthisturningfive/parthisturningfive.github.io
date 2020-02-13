@@ -10,8 +10,8 @@ function init() {
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     
-    step = 320;
-    steps = 0;
+    step = 10;
+    steps = 5;
     RunTextLeftToRight();
 }
  
